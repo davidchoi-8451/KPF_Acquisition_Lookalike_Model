@@ -1,4 +1,4 @@
-# KPF 3P Gift Lookalike Model to refine Acquisition strategy for 2026 and forward, starting with Holiday.
+# KPF 3P Gift Lookalike Model to refine Acquisition strategy for 2026 onwards.
 
 Goal: Create a look-alike model to predict new acquisition HHs in the gift card category and evaluate how different the targeted HHs is from our current acquisition strategy. Test this new targeting strategy for future campaigns.
 
