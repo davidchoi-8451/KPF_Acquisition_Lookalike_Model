@@ -25,6 +25,4 @@ Features include:
 - Fuel Points Redemption and Earned Amount (lifetime, last month)
 - Digital Engagement Segmentation (People who interact w/ Kroger digital media .. are they more likely to interact with SSEs, TDC, PUSH, ect)
 - Customer Dimensions (funlo): Price, Health, Convenience Dimensions
-- More .. (maybe Burn Rate-related feature) ask Michelle Kelleher
-
-Note that features in the diagnostic EDA file will be modified to prevent data leakage in the actual train/validation/test sets.
+- socs and fuel related data (HML segment, score) from seg package
