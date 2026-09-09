@@ -26,3 +26,17 @@ Features include:
 - Digital Engagement Segmentation (People who interact w/ Kroger digital media .. are they more likely to interact with SSEs, TDC, PUSH, ect)
 - Customer Dimensions (funlo): Price, Health, Convenience Dimensions
 - socs and fuel related data (HML segment, score) from seg package
+
+Training/Test Data Build File:
+- Function calls to create seasonality / fuel point / transaction / ect features for certain KPF gifting and campaign flighting seasons
+- HH segmentation features
+- Holistic features (transactions, total trips, ect)
+- Train/Test/Valdidation cell split
+
+Model Training File:
+- AutoML (H2o) to create h2o frames and run leaderboard on test set to determine top performing models + diagnostics
+- Scoring HHs via threshold cutoff or class label (0 / 1)
+- Statistical testing on conversion and expectation of net spend to see if results are stat. sig between acq. cell model-good vs. model-poor HHs
+
+Halloween Folder - tested on 2025 Halloween in preparation for 2026 Halloween
+Outside folder - tested on 2025 Holiday in preparation of 2026 Holiday
